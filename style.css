@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Open+Sans:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+/* HEADER */
+
+.container__imagem___principal {
+    margin-left: 140px;
+    position: relative;
+}
+
+.container__imagem___principal img {
+    width: 90%;
+}
+
+.container__titulo___principal {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 300px;
+    color: white;
+    top: 100px;
+    left: 150px;
+}
+
+.container__titulo___principal h1 {
+    background: transparent;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.container__titulo___principal h2 {
+    background: transparent;
+    font-family: 'Brush Script MT';
+    font-size: 27px;
+}
+
+.container__menu {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-right: 50px;
+}
+
+a:hover {
+    color: #ad5726;
+}
+
+a:active {
+    color: #e17638;
+}
+
+.container__lista {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+}
+  
+.container__lista li {
+    margin-left: 32px;
+}
+
+.botao__ativo {
+    font-weight: bold;
+    color: #d89300;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+}
+
+.caixa01 {
+    width: 30%;
+}
+
+.caixa01__titulo {
+    display: flex;
+    color: white;
+}
+
+.caixa01__titulo h3 {
+    color: #e17638;
+    font-size: 41px;
+    width: 250px;
+    margin-left: 40px;
+}
+
+.caixa01__titulo p {
+    font-size: 30px;
+   margin-top: 80px;
+   margin-left: -40px;
+}
+
+.caixa01__titulo h2 {
+    color: #d89300;
+    font-size: 70px;
+    margin-left: 10px;
+}
+
+.texto__caixa01 {
+    color: white;
+    text-align: justify;
+    margin: 20px 0 70px 40px;
+}
+
+.container__profissionais {
+    color: white;
+    margin-left: 40px;
+    text-align: justify;
+}
+
+.container__profissionais h2 {
+    color: white;
+    font-size: 35px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.container__profissionais li {
+    color: white;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.caixa02 {
+    background: rgb(19, 17, 17);
+    width: 34%;
+    height: 750px;
+    margin-left: 50px;
+    border: 3px solid gray;
+}
+
+.caixa02__titulo {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    background: rgb(19, 17, 17);
+    font-size: 40px;
+    margin: 10px 20px 0px 30px;
+}
+
+.caixa02__imagem {
+    display: flex;
+    background: transparent;
+    flex-wrap: wrap;
+}
+
+.caixa02__imagem img {
+    border: 5px solid white;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.caixa02__imagem img:hover {
+    cursor: pointer;
+}
+
+.caixa02 p {
+    background: transparent;
+    color: white;
+    width: 45px;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.caixa02 p:hover {
+    cursor: pointer;
+}
+
+.caixa03 {
+    width: 30%;
+}
+
+.caixa03__titulo {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    background: transparent;
+    font-size: 35px;
+    margin: 10px 20px 10px 30px;
+}
+
+.caixa03 img {
+    margin-left: 30px;
+    border: 5px solid #513c27;
+    width: 350px;
+}
+
+.caixa03__infos {
+    color: white;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 19px;
+}
+
+.container__mais {
+    width: 40px;
+    color: white;
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 30px 19px 20px 340px;
+}
+
+.container__mais:hover {
+    cursor: pointer;
+}
+
+.rodape {
+    display: flex;
+    border-top: 1px solid white;
+    height: 50px;
+    width: 100%;
+}
+
+/* FOOTER */
+
+.rodape {
+    padding-top: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: #d89300;
+    text-decoration: none;
+    text-align: center;
+}
+
+.icon__copy {
+    margin-left: 30rem;
+}
+
+.container__empresa {
+    margin-left: 5px;
+    color: #d89300;
+}
